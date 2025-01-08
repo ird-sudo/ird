@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <style>
+    body {
+      font-family: 'Times New Roman';
+      margin: 0;
+      padding: 0;
+      background-color: rgba(129, 6, 6, 0.762);
+    }
+
+    header {
+      background-color: #68330b;
+      padding: 30px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      color: rgb(5, 5, 5);
+      width: 100%;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-top: 20px;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #000000;
+    }
+
+    .topnav a {
+      float: left;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #393178;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #656565;
+      color: white;
+    }
+
+    .container {
+      position: relative;
+      width: 20%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: rgba(21, 48, 95, 0.7);
+    }
+
+    .container:hover .overlay {
+      opacity: 1;
+    }
+
+    .text {
+      color: rgb(249, 249, 249);
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .content-box {
+      width: 80%;
+      max-width: 1000px;
+      min-width: 600px;
+      margin: 0 auto;
+      background-color: #f0f0f0;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    th, td {
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #2f3876;
+      color: white;
+    }
+
+    .side-by-side {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .side-by-side div {
+      width: 45%;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 150px; 
+      height: auto; 
+      border-radius: 0; 
+    }
+    
+    .welcome-text {
+      text-align: center;
+      font-size: 24px;
+      color: white;
+      margin-top: 20px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 60px;
+      margin-top: 0px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <font size="16">MY RESUME</font>
+  </header>
+
+  <div class="topnav">
+    <a href="index.html">Homepage</a>
+    <a href="MyBiodata.html">Biodata</a>
+    <a class="active" href="MyResume.html">Resume</a>
+    <a href="MyPerspective.html">My Pov</a>
+    <a href="MyEducation.html">Education</a>
+    <a href="AboutMe.html">About Me</a>
+  </div>
+
+  <br>
+  <img src="resumepic.jpg" alt="Resume Picture">     
+<br>
+<br>
+  <div class="content-box">
+    <font face="Arial">
+    <center>
+      <h5>I am eager to apply my academic background to real-world situations because I have a deep interest in learning how different sectors function. I can efficiently handle information and work with data systems, which enables me to evaluate, understand, and use data to inform business choices. I can quickly adjust to new technologies and approaches because of my passion for lifelong learning and problem-solving, which guarantees that I can support the expansion and prosperity of any company.</h5>
+    </center>
+
+    <table style="width:100%">
+      <tr>
+        <th colspan="2" style="text-align: center;">Personal Information</th>
+      </tr>
+      <tr>
+        <td><strong>NAME:</strong></td>
+        <td>Rifhanis Irdina Binti Resman</td>
+      </tr>
+      <tr>
+        <td><strong>AGE:</strong></td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td><strong>NO. PHONE:</strong></td>
+        <td>(+62) 019-3065 127</td>
+      </tr>
+      <tr>
+        <td><strong>ADDRESS:</strong></td>
+        <td>No 21, Jalan Pasak 22<br> Taman Pasak Sentosa, Kota Tinggi,<br> Johor.</td>
+      </tr>
+      <tr>
+        <td><strong>EMAIL:</strong></td>
+        <td><a href="mailto:irdinarifhanis@gmail.com">irdinarifhanis@gmail.com</a></td>
+      </tr>
+      <tr>
+        <th colspan="2" style="text-align: center;">Education</th>
+      </tr>
+      <tr>
+        <td><strong>Diploma:</strong></td>
+        <td>Diploma in Information Management</td>
+      </tr>
+      <tr>
+        <td><strong>Institution:</strong></td>
+        <td>University Teknologi Mara Malaysia (UiTM)</td>
+      </tr>
+      <tr>
+        <td><strong>Graduation Year:</strong></td>
+        <td>2025</td>
+      </tr>
+      <tr>
+        <td><strong>High School:</strong></td>
+        <td>SMK Semenchu</td>
+      </tr>
+      <tr>
+        <td><strong>Elective Subjects:</strong></td>
+        <td>Science Social</td>
+      </tr>
+      <tr>
+        <td><strong>Graduation Year:</strong></td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <th colspan="2" style="text-align: center;">Relevant Coursework & Personal Skills</th>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="side-by-side">
+            <div>
+              <h3>Relevant Coursework</h3>
+              <ul>
+                <li>Information Skills</li>
+                <li>Record Management</li>
+                <li>Cataloging</li>
+                <li>Programming</li>
+                <li>Human Communications</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Personal Skills</h3>
+              <ul>
+                <li>Effective time management</li>
+                <li>Strong written and verbal communication</li>
+                <li>Independent and team-oriented work</li>
+                <li>Leadership and collaboration abilities</li>
+                <li>Can work under pressure</li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <br>
+
+</body>
+</html>
